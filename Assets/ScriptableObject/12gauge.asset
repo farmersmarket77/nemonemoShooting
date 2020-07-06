@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8586187a8774fa4c95425edcf9ed488, type: 3}
+  m_Name: 12gauge
+  m_EditorClassIdentifier: 
+  i_gun_number: 3
+  sprite_gun_image: {fileID: 21300000, guid: ef2c2e51d0c1d9d43bec1d80106a4f9f, type: 3}
+  go_projectile: {fileID: 1714915842853326601, guid: 6d81b30b45280a64da008aa7ccd33cee,
+    type: 3}
+  go_Shell: {fileID: 1121112234868377601, guid: e22e8e441b66cf14f8f16342144c1e2c,
+    type: 3}
+  f_gun_damage: 1
+  f_gun_velocity: 40
+  f_gun_life_time: 0.8
+  f_gun_ROF: 1
+  f_gun_reload_time: 0.5
+  i_gun_magazine_capacity: 8
+  f_gun_knockback_power: 30
+  f_gun_knockback_radius: 1
+  f_gun_camera_shake_time: 0.1
+  f_gun_camera_shake_amount: 0.07
+  particle_gun_fire_effect: {fileID: 3273785356991454671, guid: 73454f0da394e3341a603bec097f30a5,
+    type: 3}
+  particle_gun_impact_effect: {fileID: 2429129815935317232, guid: deacfc3f91595cb41b90a78f9b708874,
+    type: 3}
+  sound_fire: {fileID: 8300000, guid: 4ccac301cbfee92468b5338cea6e177c, type: 3}
+  sound_reload: {fileID: 8300000, guid: 6ff5f4031b32ca5499ba9d9967078425, type: 3}
+  b_select_levor: 0
+  b_shotgun: 1
